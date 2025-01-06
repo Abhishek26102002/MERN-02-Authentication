@@ -25,7 +25,7 @@ const Home = () => {
 
   const fetchProduct = async () => {
     try {
-      const url = `http://localhost:8080/products`;
+      const url = `https://mern-02-authentication-backend.vercel.app`;
 
       const headers = {
         headers: {
