@@ -25,7 +25,7 @@ const Login = () => {
       return handelError("email and password are required");
     }
     try {
-      const url = `http://localhost:8080/auth/login`;
+      const url = `https://mern-02-authentication-backend.vercel.app`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
